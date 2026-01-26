@@ -7,3 +7,7 @@ console.log(test);
 console.log(typeof n);
 console.log(typeof flag);
 console.log(typeof test);
+
+
+
+

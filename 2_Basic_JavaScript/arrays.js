@@ -9,7 +9,7 @@ arr.push("69");
 console.log(arr);
 arr.pop();
 console.log(arr);
-
+arr.unshift('joy')
 arr.unshift("Mahir");
 console.log(arr);
 arr.shift();

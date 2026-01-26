@@ -10,5 +10,7 @@ console.log(Math.max(...arr1));
 console.log(arr1.indexOf(3));
 console.log(arr1.includes(111));
 
-arr1.sort(function (a, b) { return b - a })
+arr2.sort(function (a, b) { return b - a })
+console.log(arr2);
+arr1.sort(function (a, b) { return a - b })
 console.log(arr1);

@@ -10,6 +10,11 @@ const products = [
 ]
 
 
-const result = products.map(mp => mp.id += 2)
+const result = products.map(mp => mp.id)
 
 console.log(result);
+
+
+const every = products.forEach(product => {
+    console.log(product.id);
+});
