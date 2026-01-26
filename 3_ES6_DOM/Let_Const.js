@@ -2,8 +2,8 @@ const n = 5;
 // n = 6;
 console.log(n);
 
-if(true){
-    const r =5;
+if (true) {
+    const r = 5;
     let y = 9
     console.log(r, y);
 }
