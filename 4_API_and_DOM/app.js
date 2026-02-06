@@ -1,4 +1,6 @@
 // alert('')
+
+// getting elements
 // const target = document.getElementsByTagName('h1');
 // const target = document.getElementsByClassName('title');
 const target = document.getElementById('title')
@@ -8,6 +10,8 @@ console.log(target);
 const all_Box = document.getElementsByClassName('box')
 console.log(all_Box);
 
+
+// loop in html contents
 for (let i = 0; i < all_Box.length; i++) {
     const element = all_Box[i];
     console.log(element);

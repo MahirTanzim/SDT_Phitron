@@ -12,4 +12,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    margin-bottom: 10px;
+}
+input{
+    padding: 5px;
+    width: 400px;
+}
+.add_Button{
+    padding: 5px;
+    margin-left: 5px;
 }
