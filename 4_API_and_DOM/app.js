@@ -16,11 +16,23 @@ for (let i = 0; i < all_Box.length; i++) {
     const element = all_Box[i];
     console.log(element);
     element.style.backgroundColor = 'Red';
-    if(element.innerText == 'Box-5'){
+    if (element.innerText == 'Box-5') {
         element.style.backgroundColor = 'green';
     }
-    if(i == 7){
+    if (i == 7) {
         element.style.backgroundColor = 'blue';
     }
-    
+
 }
+
+document.getElementById('add_button').addEventListener('click', (event)=>{
+    console.log('This Is Event Listner');
+    const input_val = document.getElementById('search_box').value;
+    console.log(input_val);
+})
+
+
+// const handle_search = () => {
+//     console.log("Hello Boxxx");
+// }
+

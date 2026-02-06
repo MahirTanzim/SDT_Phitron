@@ -21,4 +21,9 @@ input{
 .add_Button{
     padding: 5px;
     margin-left: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20%
 }
