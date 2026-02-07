@@ -32,7 +32,19 @@ document.getElementById('add_button').addEventListener('click', (event)=>{
 })
 
 
-// const handle_search = () => {
-//     console.log("Hello Boxxx");
-// }
+const handle_search = () => {
+    console.log("Hello Boxxx");
+    const input_val = document.getElementById('Search_box').value;
+    console.log(input_val);
+}
+
+document.getElementById('Add').addEventListener('click', (event)=>{
+    
+    const input_val = document.getElementById('text_box').value;
+    const p = document.createElement('p');
+    const comment =  document.getElementById('comment-container');
+    p.innerText = input_val;
+    comment.appendChild(p);
+    document.getElementById('text_box').value = '';
+})
 
