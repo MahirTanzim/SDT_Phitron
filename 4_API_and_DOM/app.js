@@ -42,6 +42,7 @@ document.getElementById('Add').addEventListener('click', (event)=>{
     
     const input_val = document.getElementById('text_box').value;
     const p = document.createElement('p');
+    p.classList.add('child')
     const comment =  document.getElementById('comment-container');
     p.innerText = input_val;
     comment.appendChild(p);
